@@ -69,6 +69,9 @@ public class CatalogCard implements Comparable<CatalogCard> {
     }
 
 
+
+
+
     @Override
     public int compareTo(CatalogCard other) {
         return Integer.compare(this.cardID, other.cardID);
